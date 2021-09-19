@@ -25,7 +25,7 @@ p {font-size: 14px;
     }
 
 .outerbox1{
-   
+   width: 25%;
     background: #ADD8E6;
     border: 3px solid black;
 	font-size; 10px;
@@ -49,6 +49,7 @@ p {font-size: 14px;
      }
 
 .outerbox2{
+	width: 25%;
     background: #ADD8E6;
 	border: 3px solid black;
 	font-size; 10px;
@@ -69,6 +70,7 @@ p {font-size: 14px;
     right: 0px
      }
 .outerbox3{
+	width: 25%;
     background: #ADD8E6;
 	border: 2px solid black;
 	font-size; 10px;
@@ -88,12 +90,14 @@ p {font-size: 14px;
      }
 
      /*******for larger devices************/
+
+     /*
 @media(min-width: 992px){
 
 .outerbox1, .outerbox2, .outerbox3 {
 
-	width:33%;
-	margin:10px;
+	width:30%;
+	margin:10px auto;
 }
 
      /*******for medium devices************/
@@ -103,19 +107,19 @@ p {font-size: 14px;
 
 	.outerbox1, .outerbox2 {
 		margin: 3px auto;
-
-		width: 48%;
+		width: 45%;
 	}
 
     .outerbox3 {
-    	margin: 9px;
-    	width: 100%;
+    	margin: 10px auto;
+    	width: 95%;
 
     }
 
   }
 
 /*******for mobile devices************/
+
 @media(max-width: 767px){
 
 .outerbox1, .outerbox2, .outerbox3 {
@@ -123,6 +127,7 @@ p {font-size: 14px;
 	width:100%;
 	margin:10px;
 }
+
 
   }
 
