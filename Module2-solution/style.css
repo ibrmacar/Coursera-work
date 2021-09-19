@@ -1,12 +1,129 @@
-<style>
 
-.x {
-
-    width: 130px;
-    border: 3px solid black;	
-    border-radius: 5px;
-    margin: 0 auto;
-	background: blue ; 
-	color: red;
+    *{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-</style>
+
+.container{
+	max-width:100%;
+    display: flex;
+    flex-wrap: wrap;	}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 35px;
+    font-style: italic;
+    text-align: center;
+}
+
+p {font-size: 14px;
+	padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px
+    }
+
+.outerbox1{
+   
+    background: #ADD8E6;
+    border: 3px solid black;
+	font-size; 10px;
+	margin: 0 auto;
+	position: relative;
+	float: left;
+
+
+}
+
+.innerbox1{
+	width: 70px;
+	background: #727B83 ; 
+	border: 3px solid black;
+	color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    right: 0px
+
+     }
+
+.outerbox2{
+    background: #ADD8E6;
+	border: 3px solid black;
+	font-size; 10px;
+	margin: 0 auto;
+	position: relative;
+    float: left;
+    }
+
+
+.innerbox2{
+	width: 70px;
+	background: #DE1946 ; 
+	border: 2px solid black;
+	color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    right: 0px
+     }
+.outerbox3{
+    background: #ADD8E6;
+	border: 2px solid black;
+	font-size; 10px;
+	margin: 0 auto;
+	position: relative;
+    float: left;}
+
+.innerbox3{
+	width: 70px;
+	background: #34EE8E; 
+	border: 2px solid black;
+	color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    right: 0px
+     }
+
+     /*******for larger devices************/
+@media(min-width: 992px){
+
+.outerbox1, .outerbox2, .outerbox3 {
+
+	width:33%;
+	margin:10px;
+}
+
+     /*******for medium devices************/
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+	.outerbox1, .outerbox2 {
+		margin: 3px auto;
+
+		width: 48%;
+	}
+
+    .outerbox3 {
+    	margin: 9px;
+    	width: 100%;
+
+    }
+
+  }
+
+/*******for mobile devices************/
+@media(max-width: 767px){
+
+.outerbox1, .outerbox2, .outerbox3 {
+
+	width:100%;
+	margin:10px;
+}
+
+  }
+
+ 
