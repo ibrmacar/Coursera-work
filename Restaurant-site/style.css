@@ -15,6 +15,8 @@ font-family: 'Oxygen' , sans-serif;
 
     }
 
+        
+
     #top {
     color: black;
     font-family: 'Oxygen' , sans-serif;
@@ -23,15 +25,15 @@ font-family: 'Oxygen' , sans-serif;
     }
 
    .menu-title {
-        margin-top: 20px;
-        margin-bottom: 35px;
+        margin-top: 100px;
+        margin-bottom: 40px;
         text-align: center;
         color: black;
         font-family: 'Oxygen' , sans-serif;
 
    }
 
-   .container1, .container2, .container3 {
+   #container1, #container2, #container3 {
             
             width: 80%;
             height: 700px;
@@ -39,6 +41,7 @@ font-family: 'Oxygen' , sans-serif;
             box-sizing: border-box;
             background-color: #999999;
             color: black;
+            text-align: center;
             margin: 0 auto;
             margin-bottom: 30px;
             overflow: hidden;
@@ -60,18 +63,21 @@ p {
     color: blue;
 }
 
-.chicken, .beef, .sushi {
 
-    text-align: center;
-
-}
-
-.nav-link {
-text-align: center;
+ .navt {
+text-decoration:none;
 color: black;
-font-size: 20px;
-border:2px solid black;
+font-family: 'Oxygen' , sans-serif
 }
+
+.options {
+    background: #c5aa6a;
+    text-align: center; 
+    font-size: 24px;
+    border: 1px solid black;
+  }
+
+
 
 @media  (min-width:768px) AND (max-width:1129px){
 
